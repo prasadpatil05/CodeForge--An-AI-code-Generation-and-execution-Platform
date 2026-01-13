@@ -1,5 +1,7 @@
 package com.CodeForgeProject.CodeForge.entity;
 
+import com.CodeForgeProject.CodeForge.enums.MessageRole;
+
 import java.time.Instant;
 
 public class ChatMessage {
@@ -9,6 +11,8 @@ public class ChatMessage {
     ChatSession chatSession;
     String content;
 
+
+    MessageRole role;
     String toolCalls;//Json Array of Tools Called
 
     Integer tokensUsed;

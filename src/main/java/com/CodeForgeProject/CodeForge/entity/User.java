@@ -19,7 +19,7 @@ public class User {
     private String avatarUrl;
     private Instant createdAt;
     private Instant updatedAt;
-    private Instant deletedAt;
+    private Instant deletedAt; //soft delete
 
 }
 
