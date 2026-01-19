@@ -17,7 +17,7 @@ public class ChatMessage {
 
     Integer tokensUsed;
     Instant createdAt;
-    Instant updatedAt;
+
 
     
 }
